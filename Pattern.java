@@ -74,7 +74,22 @@ public class Pattern {
             }
             System.out.println();
         }
-
+    // ***********
+    // *         *
+    // ***********
+        int j;
+    for(int i=1;i<=4;i++){
+        for(j=1;j<=5;j++){
+            // cell = i,j
+            if(i == 1 || i == 4 || j == 1 || j == 5){
+                System.out.print("*");
+            }
+            else{
+                System.out.println();
+            }
+        }
+        System.out.println();
+    }
    }
 }
 
