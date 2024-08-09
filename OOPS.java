@@ -6,6 +6,21 @@ public class OOPS {
         p1.SetColor("Yellow");
         System.out.println("Pen Color : " + p1.Color);
         System.out.println("Pen Tip size: "  +p1.tip);
+
+        BankAccount b1 = new BankAccount();
+        b1.Username = "Prashant";  //Can access
+        // b1.password = "Sfnkn";  Cannot access 
+
+    
+    }
+}
+class BankAccount{
+    public String Username;
+    private String password;
+
+    void setPass(String pwd){ // Can access within the class
+
+        password = pwd;
     }
 }
 class Pen{
